@@ -1,0 +1,229 @@
+*{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 65vh;
+    background-image: url(images/desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+    line-height: 120px
+}
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+.btn{
+    font-size: 16px;
+    width: 60px;
+    height: 25px;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 2px;
+    
+}
+.btn3{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 340px;
+}
+
+.btn3 h1{
+    background-color: gray;
+    border: 0 none;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    
+
+}
+h1{
+    color: white;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    margin-left: 100px;
+    font-size: xx-large;
+    color: white;
+}
+.content2{
+    margin-top: 200px;
+    width: 1000px;
+    height: 25vh;
+    font-size: x-large;
+    
+}
+.content2 h3{
+    font-size: larger;
+    justify-content: center;
+    margin-left: 300px;
+    font-weight: 100;
+    font: bolder;
+}
+.content2 p{
+    margin-top: 25px;
+   
+    
+
+}
+
+.list-title{
+    float: none;
+        width: 100%;
+        padding: 30px;
+      color: white;
+      justify-content: space-between;
+}
+.list-title h3{
+    font-size: 25px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-between;
+    text-align: left;
+    
+    
+}
+
+.contentlist{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-image: url(images/pawel-czerwinski-9Lw6YZjRmlk-unsplash\ \(1\).jpg);
+    background-size: cover;
+
+}
+.content p{
+    font-size: 20px;
+    margin-top: 20px; 
+    font: bolder;
+}
+.content2 h3{
+    font-size: 40px;
+    align-items: center;
+}
+.content2 p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.interest-col{
+ flex: 33.33%;
+ padding: 5px;
+}
+.interest-col img{
+    margin-left: 20px;
+    width: 90%;
+    height:90%;
+    border-radius: 10px;  
+}
+
+.interest-col h3{
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.interest-col p{
+    margin-left: 17px;
+    font-size: 12px;
+}
+.button2{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 400px;
+}
+
+  .button2 .btn-bot{
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: 0 none;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    
+  }
+
+  .footer{
+    width: 100%;
+    height: 23vh;
+    background-color: white;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% auto;
+  }
+  
+  .footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+  }
+  
+  .footer-heading h2{
+    margin-bottom: 2rem;
+  
+  }
+  .footer-heading a{
+    font-size: 18x;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  .footer p{
+    margin-top: 100px;
+  }
+ .footer-1{
+    margin-right: 330px;
+  }
+  .footer-2 a{
+    color: lightblue;
+    text-decoration: underline;
+  }
+  .footer-3 a{
+    color: lightblue;
+    text-decoration: underline;
+  }
+  .icons .fa{
+    color: black;
+    margin: 0 4px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
